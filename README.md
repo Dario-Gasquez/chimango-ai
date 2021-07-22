@@ -1,5 +1,5 @@
 # Chimango:AI
-This is a Swift based visual search library based on [Vision](https://developer.apple.com/documentation/vision) and [CoreML](https://developer.apple.com/documentation/coreml) that you can use in your iOS app to detect objects in images in a simple way. For more information: [Chimango:AI Library Design]()
+This is a Swift based visual search library based on [Vision](https://developer.apple.com/documentation/vision) and [CoreML](https://developer.apple.com/documentation/coreml) that you can use in your iOS app to detect objects in images in a simple way. For more information: [Chimango:AI Library Design](https://github.com/Dario-Gasquez/chimango-ai/wiki)
 
 ## Requirements
 - iOS 12.0+
