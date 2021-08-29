@@ -28,7 +28,6 @@ public enum ObjectDetectionMode {
     }
 
 
-
     // MARK: - Private Section -
     private enum Constants {
         static let cocoObjectDetectionModelName = "YOLOv3TinyFP16"
