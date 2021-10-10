@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  VisualSearchDemo
+//  ChimangoDemo
 //
 //  Created by Dario on 29/08/2021.
 //
