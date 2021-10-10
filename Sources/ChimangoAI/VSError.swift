@@ -19,6 +19,6 @@ public enum VSError: String, Error {
 
 extension VSError: LocalizedError {
     public var errorDescription: String? {
-        return "IBSError: \(self.rawValue)"
+        return "Visual Search Error: \(self.rawValue)"
     }
 }
