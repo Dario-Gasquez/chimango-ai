@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A3C0706426DC2C86002C4ECC /* VisualSearchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisualSearchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3C0706426DC2C86002C4ECC /* ChimangoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChimangoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3C0706726DC2C86002C4ECC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3C0706926DC2C86002C4ECC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A3C0706B26DC2C86002C4ECC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		A3C0705B26DC2C86002C4ECC = {
 			isa = PBXGroup;
 			children = (
-				A3C0706626DC2C86002C4ECC /* VisualSearchDemo */,
+				A3C0706626DC2C86002C4ECC /* ChimangoDemo */,
 				A3C0706526DC2C86002C4ECC /* Products */,
 				A3C0707C26DC2D33002C4ECC /* Frameworks */,
 			);
@@ -52,12 +52,12 @@
 		A3C0706526DC2C86002C4ECC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A3C0706426DC2C86002C4ECC /* VisualSearchDemo.app */,
+				A3C0706426DC2C86002C4ECC /* ChimangoDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A3C0706626DC2C86002C4ECC /* VisualSearchDemo */ = {
+		A3C0706626DC2C86002C4ECC /* ChimangoDemo */ = {
 			isa = PBXGroup;
 			children = (
 				A3C0706726DC2C86002C4ECC /* AppDelegate.swift */,
@@ -68,7 +68,7 @@
 				A3C0707226DC2C87002C4ECC /* LaunchScreen.storyboard */,
 				A3C0707526DC2C87002C4ECC /* Info.plist */,
 			);
-			path = VisualSearchDemo;
+			path = ChimangoDemo;
 			sourceTree = "<group>";
 		};
 		A3C0707C26DC2D33002C4ECC /* Frameworks */ = {
@@ -82,9 +82,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A3C0706326DC2C86002C4ECC /* VisualSearchDemo */ = {
+		A3C0706326DC2C86002C4ECC /* ChimangoDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A3C0707826DC2C87002C4ECC /* Build configuration list for PBXNativeTarget "VisualSearchDemo" */;
+			buildConfigurationList = A3C0707826DC2C87002C4ECC /* Build configuration list for PBXNativeTarget "ChimangoDemo" */;
 			buildPhases = (
 				A3C0706026DC2C86002C4ECC /* Sources */,
 				A3C0706126DC2C86002C4ECC /* Frameworks */,
@@ -94,12 +94,12 @@
 			);
 			dependencies = (
 			);
-			name = VisualSearchDemo;
+			name = ChimangoDemo;
 			packageProductDependencies = (
 				A3C0707D26DC2D33002C4ECC /* ChimangoAI */,
 			);
 			productName = VisualSearchDemo;
-			productReference = A3C0706426DC2C86002C4ECC /* VisualSearchDemo.app */;
+			productReference = A3C0706426DC2C86002C4ECC /* ChimangoDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -116,7 +116,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A3C0705F26DC2C86002C4ECC /* Build configuration list for PBXProject "VisualSearchDemo" */;
+			buildConfigurationList = A3C0705F26DC2C86002C4ECC /* Build configuration list for PBXProject "ChimangoDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -129,7 +129,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A3C0706326DC2C86002C4ECC /* VisualSearchDemo */,
+				A3C0706326DC2C86002C4ECC /* ChimangoDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -303,13 +303,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z9H8DB4ACA;
-				INFOPLIST_FILE = VisualSearchDemo/Info.plist;
+				INFOPLIST_FILE = ChimangoDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.djg.VisualSearchDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.djg.ChimangoDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -323,13 +323,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z9H8DB4ACA;
-				INFOPLIST_FILE = VisualSearchDemo/Info.plist;
+				INFOPLIST_FILE = ChimangoDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.djg.VisualSearchDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.djg.ChimangoDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -339,7 +339,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A3C0705F26DC2C86002C4ECC /* Build configuration list for PBXProject "VisualSearchDemo" */ = {
+		A3C0705F26DC2C86002C4ECC /* Build configuration list for PBXProject "ChimangoDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A3C0707626DC2C87002C4ECC /* Debug */,
@@ -348,7 +348,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A3C0707826DC2C87002C4ECC /* Build configuration list for PBXNativeTarget "VisualSearchDemo" */ = {
+		A3C0707826DC2C87002C4ECC /* Build configuration list for PBXNativeTarget "ChimangoDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A3C0707926DC2C87002C4ECC /* Debug */,
