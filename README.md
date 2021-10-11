@@ -1,5 +1,7 @@
 # Chimango·AI
-A Swift based, visual search library based on [Vision](https://developer.apple.com/documentation/vision) and [CoreML](https://developer.apple.com/documentation/coreml) that you can add to your iOS app to detect objects in images in a simple way. For more information about the underlying design see: [Chimango·AI Library Design](https://github.com/Dario-Gasquez/chimango-ai/wiki).<br>
+A Swift based, visual search library based on [Vision](https://developer.apple.com/documentation/vision) and [CoreML](https://developer.apple.com/documentation/coreml) that you can add to your iOS app to detect objects in images in a simple way.<br> 
+For more information about the underlying design see: [Chimango·AI Library Design](https://github.com/Dario-Gasquez/chimango-ai/wiki).<br>
+
 **This is a work in progress**.
 
 ## Requirements
@@ -36,7 +38,7 @@ import ChimangoAI
 
 ## Usage
 ### Initial setup
-Before anything else, you will need to setup the library with the desired detection mode(using the [COCO](https://cocodataset.org/#home) dataset in this example):
+Before anything else, you will need to setup the library with the desired detection mode (using the [COCO](https://cocodataset.org/#home) dataset in the following example):
 ```Swift
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
@@ -49,10 +51,10 @@ Before anything else, you will need to setup the library with the desired detect
 
         return true
     }
-    ```
+```
 NOTE: For the time being only the `.coco` mode is implemented.
 
-### Simplest use-case: detects objects in an image
+### Simplest use-case: objects in an image detection
 The simplest way to obtain a list of objects detections is by passing an image to the `VisualSearchManager` like this:
 ```Swift
 
@@ -74,6 +76,6 @@ VisualSearchManager.detectObjectsIn(image: image) { (result) in
 
 
 ## Demo App
-The [DemoApp]() directory contains a sample application. It allows the user to capture an image (either from the device's photos library or by taking a picture using the camera) and then sends that image to the `VisualSearchManager` for objects detection using the [COCO](https://cocodataset.org/#home) data set.<br>
+The [DemoApp](./DemoApp) directory contains a sample application. It allows the user to capture an image (either from the device's photos library or by taking a picture using the camera) and then sends that image to the `VisualSearchManager` for objects detection using the [COCO](https://cocodataset.org/#home) data set.<br>
 
 If objects are detected an alert view with stats is shown. Also circular buttons are drawn on top of the detected objects (tapping on them shows debug information in Xcode debug console).
