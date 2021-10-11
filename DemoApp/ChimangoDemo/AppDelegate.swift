@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  VisualSearchDemo
+//  ChimangoDemo
 //
 //  Created by Dario on 29/08/2021.
 //
@@ -10,8 +10,6 @@ import ChimangoAI
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
