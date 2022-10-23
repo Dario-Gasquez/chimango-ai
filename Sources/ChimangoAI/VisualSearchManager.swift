@@ -48,6 +48,10 @@ public final class VisualSearchManager {
     /// - IMPORTANT: This method has to be executed before anything else
     public static func setupWithMode(_ detectionMode: ObjectDetectionMode) throws {
 
+        guard detectionMode == .coco else {
+            throw VSError.detectionModeNotSupported
+        }
+
         guard let detector = ObjectDetector(withMode: detectionMode) else {
             throw VSError.librarySetupFailed
         }

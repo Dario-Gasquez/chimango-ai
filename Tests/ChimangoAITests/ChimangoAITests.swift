@@ -2,10 +2,21 @@
     @testable import ChimangoAI
 
     final class ChimangoAITests: XCTestCase {
-        func testExample() {
-            // This is an example of a functional test case.
-            // Use XCTAssert and related functions to verify your tests produce the correct
-            // results.
-            //XCTAssertEqual(ChimangoAI().text, "Hello, World!")
+        func test_setupWithCocoMode_IsSuccessful() {
+            XCTAssertNoThrow(try VisualSearchManager.setupWithMode(.coco))
+        }
+
+
+        func test_setupWithFlowersMode_ThrowsNotSupportedError() {
+            do {
+                try VisualSearchManager.setupWithMode(.flowers)
+            } catch let error {
+                guard let vsError = error as? VSError else {
+                    XCTFail("VSError was expected")
+                    return
+                }
+
+                XCTAssertEqual(vsError, .detectionModeNotSupported)
+            }
         }
     }
