@@ -1,4 +1,7 @@
-# Chimango·AI
+<p align="center">
+<img src="https://raw.githubusercontent.com/Dario-Gasquez/chimango-ai/master/images/logo.png" alt="ChimangoAI" title="ChimangoAI" width="500"/>
+</p>
+
 A Swift based, visual search library based on [Vision](https://developer.apple.com/documentation/vision) and [CoreML](https://developer.apple.com/documentation/coreml) that you can add to your iOS app to detect objects in images in a simple way.<br> 
 For more information about the underlying design see: [Chimango·AI Library Design](https://github.com/Dario-Gasquez/chimango-ai/wiki).<br>
 
